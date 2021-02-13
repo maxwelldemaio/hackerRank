@@ -1,3 +1,5 @@
+// Useful link: https://www.youtube.com/watch?v=BM-gWi7hEWk
+
 class Stack {
     constructor() {
         this.items = {};
