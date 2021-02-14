@@ -3,32 +3,34 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-    // We are going to mimic a stack data structure
-    let parenStack = [];
+    // The stack to keep track of opening brackets.
+    let stack = [];
+    // Hash map for keeping track of mappings.
+    const mapping = {
+        ")": "(",
+        "]": "[",
+        "}": "{"
+    }
 
-    
-    for (let letter of s) {
-        // Push opening brackets to stack
-        if ("({[".includes(letter)) {
-            parenStack.push(letter);
-        }
-        // Check for validity
-        if(")}]".includes(letter)) {
-            lastOpen = parenStack.pop();
-            if (lastOpen === "(" && letter === ")") {
-                continue;
-            } else if (lastOpen === "[" && letter === "]") {
-                continue;
-            } else if (lastOpen === "{" && letter === "}") {
-                continue;
-            } else {
+    for (let char of s) {
+        // If the character is an closing bracket
+        if (mapping[char]) {
+            // Pop the topmost element from the stack
+            let topElement = stack.pop();
+
+            // The mapping for the opening bracket in our hash and the top
+            // element of the stack don't match, return False
+            if (mapping[char] !== topElement) {
                 return false;
-            }
+            } 
+        } else {
+            // We have an opening bracket, simply push it onto the stack.
+            stack.push(char);
         }
     }
 
     // Check if stack is empty
-    if (parenStack.length === 0) {
+    if (stack.length === 0) {
         return true;
     }
     return false;
