@@ -65,4 +65,5 @@ obj.push(1);
 obj.push(9);
 console.log(obj.getMin());
 
+
  
