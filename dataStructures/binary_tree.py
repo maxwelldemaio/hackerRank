@@ -115,6 +115,9 @@ class BinarySearchTreeNode:
             self.right = self.right.delete(min_val)
 
         return self
+    
+    def find_depth(self):
+        
 
 
 def build_tree(elements):
