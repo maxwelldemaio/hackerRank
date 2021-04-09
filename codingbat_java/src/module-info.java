@@ -1,0 +1,2 @@
+module codingbat_java {
+}

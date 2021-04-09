@@ -6,7 +6,7 @@ class BinarySearchTreeNode:
 
     def add_child(self, data):
         if data == self.data:
-            return  # node already exist
+            return  # node already exists
 
         if data < self.data:
             if self.left:
