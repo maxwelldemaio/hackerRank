@@ -117,4 +117,13 @@ public class Problem {
 		}
 		return false;
 	}
+	
+	public String helloName(String name) {
+		/* 
+		 * Given a string name, e.g. "Bob", return 
+		 * a greeting of the form "Hello Bob!".
+		 * */
+		
+		return "Hello " + name + "!";
+	}
 }
