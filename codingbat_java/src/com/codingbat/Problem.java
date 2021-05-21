@@ -4,9 +4,9 @@ public class Problem {
 
 	public static void main(String[] args) {
 		// Test cases
-		int[] intArray1 = {10,20,30,40,50,60,70,80};
+		int[] intArray1 = {1, 2, 3};
 		
-		System.out.println(firstLast6(intArray1));
+		System.out.println(sameFirstLast(intArray1));
 	}
 	
 	public static boolean sleepIn(boolean weekday, boolean vacation) {
@@ -88,6 +88,16 @@ public class Problem {
 		 * Given an array of ints, return true if the array is length 1 or more, 
 		 * and the first element and the last element are equal.
 		 * */
-		
+		if ((nums.length >= 1) && (nums[0] == nums[nums.length - 1])) {
+			return true;
+		}
+		return false;
+	}
+	
+	public int[] makePi() {
+		/* 
+		 * Return an int array length 3 containing the first 3 digits of pi, {3, 1, 4}.
+		 * */
+		return new int[] {3, 1, 4};
 	}
 }
