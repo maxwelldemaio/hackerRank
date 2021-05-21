@@ -100,4 +100,21 @@ public class Problem {
 		 * */
 		return new int[] {3, 1, 4};
 	}
+	
+	public static boolean commonEnd(int[] a, int[] b) {
+		/* 
+		 * Given 2 arrays of ints, a and b, return true if they 
+		 * have the same first element or they have the same last element. 
+		 * Both arrays will be length 1 or more.
+		 * */
+		int startA = a[0];
+		int endA = a[a.length - 1];
+		int startB = b[0];
+		int endB = b[b.length - 1];
+		
+		if ((startA == startB) || (endA == endB)) {
+			return true;
+		}
+		return false;
+	}
 }
