@@ -4,9 +4,7 @@ public class Problem {
 
 	public static void main(String[] args) {
 		// Test cases
-		int[] intArray1 = {1, 2, 3};
-		
-		System.out.println(sameFirstLast(intArray1));
+		System.out.println(stringTimes("Hi", 2));
 	}
 	
 	public static boolean sleepIn(boolean weekday, boolean vacation) {
@@ -144,6 +142,12 @@ public class Problem {
 		  * tags around the word, e.g. "<i>Yay</i>".
 		  * */ 
 		return "<" + tag + ">"+ word + "</" + tag + ">";
+	}
+	
+	public static String stringTimes(String str, int n) {
+		// return new String(new char[n]).replace("\0", str); // Also works
+		// Explanation for above: https://stackoverflow.com/questions/49588347/what-is-the-meaning-of-replace-0-0
+		return str.repeat(n);
 	}
 
 }
