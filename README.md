@@ -2,7 +2,7 @@
 Hub for my coding solutions (Python/JS/Java)
 
 
-## Algorithms
+## Directory
 
 |  #  |      Title     |   Solutions   | Video  | Difficulty  | Tag(s)                   
 |-----|----------------|---------------|--------|-------------|-------------
