@@ -7,7 +7,7 @@ public class _Tester {
 		// Access them without creating a new instance of the object
 		
 		// Test cases
-		System.out.println(PalindromeNumber.isPalindrome(0));
+		System.out.println(ReverseInteger.reverse(0));
 	}
 
 }
