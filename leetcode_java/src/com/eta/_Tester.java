@@ -7,11 +7,6 @@ public class _Tester {
 		// Access them without creating a new instance of the object
 		
 		// Test cases
-		System.out.println(ValidPalindromeII.isPalindromeII("aba"));
-		System.out.println(ValidPalindromeII.isPalindromeII("abca"));
-		System.out.println(ValidPalindromeII.isPalindromeII("abc"));
-		System.out.println(ValidPalindromeII.isPalindromeII("racecar"));
-		System.out.println(ValidPalindromeII.isPalindromeII("racecbar"));
-		
+		System.out.println(RemoveAdjDupInStr.removeDuplicates("abbaca"));
 	}
 }
