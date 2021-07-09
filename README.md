@@ -2,7 +2,7 @@
 Hub for my coding solutions (Python/JS/Java)
 
 
-## LeetCode Directory
+## LeetCode Directory (in progress)
 
 |  #  |      Title     |   Solutions   | Video  | Difficulty  | Tags                   
 |-----|----------------|---------------|--------|-------------|-------------
