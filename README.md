@@ -17,8 +17,12 @@ Hub for my coding solutions (Python/JS/Java)
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Java Solution](./leetcode_java/src/com/eta/MinSizeSubarraySum.java)|/|Medium|Array, Binary Sliding Window, and Prefix Sum|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java Solution](./leetcode_java/src/com/eta/RemoveAdjDupInStr.java), [Python Solution](./leetcode_py/RemoveDuplicates.py)|/|Easy|Array and Two Pointers|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Java Solution](./leetcode_java/src/com/eta/ReverseString.java), [Python Solution](./leetcode_py/ReverseString.py), and [JavaScript Solution](./leetcode_js/ReverseString.js)|/|Easy|Two Pointers, String, and Recursion|
-|15|[3Sum](https://leetcode.com/problems/3sum/)|[Java Solution](./leetcode_java/src/com/eta/ThreeSum.java)|/|Medium|Two Pointers, Sorting, and Array|
+|15|[3Sum](https://leetcode.com/problems/3sum/)|[Java Solution](./leetcode_java/src/com/eta/ThreeSum.java) and [Python Solution](./leetcode_py/3sum.py)|/|Medium|Two Pointers, Sorting, and Array|
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Java Solution](./leetcode_java/src/com/eta/ToLowerCase.java)|/|Easy|String|
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Java Solution](./leetcode_java/src/com/eta/ValidPalindrome.java)|/|Easy|Two Pointers and String|
 |125|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Java Solution](./leetcode_java/src/com/eta/ValidPalindromeII.java)|/|Easy|Two Pointers, Greedy, and String|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Java Solution](./leetcode_java/src/com/eta/ValidSudoku.java)|/|Medium|Array, Hash Table, and Matrix|
+|217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Python Solution](./leetcode_py/ContainsDuplicate.py)|/|Easy|Array, Hash Table, and Sorting|
+|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Python Solution](./leetcode_py/DeleteNthNode1.py)|/|Medium|Linked List and Two Pointers|
+
+
