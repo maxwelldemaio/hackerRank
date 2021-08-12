@@ -17,3 +17,4 @@ Hub for my coding solutions (Python/JS/Java)
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Java Solution](./leetcode_java/src/com/eta/MinSizeSubarraySum.java)|/|Medium|Array, Binary Sliding Window, and Prefix Sum|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java Solution](./leetcode_java/src/com/eta/RemoveAdjDupInStr.java), [Python Solution](./leetcode_py/RemoveDuplicates.py)|/|Easy|Array and Two Pointers|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Java Solution](./leetcode_java/src/com/eta/ReverseString.java), [Python Solution](./leetcode_py/ReverseString.py), and [JavaScript Solution](./leetcode_js/ReverseString.js)|/|Easy|Two Pointers, String, and Recursion|
+|15|[3Sum](https://leetcode.com/problems/3sum/)|[Java Solution](./leetcode_java/src/com/eta/ThreeSum.java)|/|Medium|Two Pointers, Sorting, and Array|
