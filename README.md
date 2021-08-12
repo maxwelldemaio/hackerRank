@@ -19,3 +19,6 @@ Hub for my coding solutions (Python/JS/Java)
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Java Solution](./leetcode_java/src/com/eta/ReverseString.java), [Python Solution](./leetcode_py/ReverseString.py), and [JavaScript Solution](./leetcode_js/ReverseString.js)|/|Easy|Two Pointers, String, and Recursion|
 |15|[3Sum](https://leetcode.com/problems/3sum/)|[Java Solution](./leetcode_java/src/com/eta/ThreeSum.java)|/|Medium|Two Pointers, Sorting, and Array|
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Java Solution](./leetcode_java/src/com/eta/ToLowerCase.java)|/|Easy|String|
+|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Java Solution](./leetcode_java/src/com/eta/ValidPalindrome.java)|/|Easy|Two Pointers and String|
+|125|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Java Solution](./leetcode_java/src/com/eta/ValidPalindromeII.java)|/|Easy|Two Pointers, Greedy, and String|
+|36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Java Solution](./leetcode_java/src/com/eta/ValidSudoku.java)|/|Medium|Array, Hash Table, and Matrix|
