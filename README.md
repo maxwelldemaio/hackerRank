@@ -26,5 +26,7 @@ Hub for my coding solutions (Python/JS/Java)
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Python Solution](./leetcode_py/DeleteNthNode1.py)|/|Medium|Linked List and Two Pointers|
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Python Solution](./leetcode_py/HammingDistance.py)|/|Easy|Bit Manipulation|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Python Solution](./leetcode_py/IntersectArray2.py)|/|Easy|Array, Hash Table, Two Pointers, Binary Search, and Sorting|
+|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Java Solution](./leetcode_java/src/com/eta/PalindromeLinkedList.java)|/|Easy|Linked List, Stack, Two Pointers, and Recursion|
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Java Solution](./leetcode_java/src/com/eta/ReverseLinkedList.java)|/|Easy|Linked List and Recursion|
 
 
