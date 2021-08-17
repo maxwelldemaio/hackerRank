@@ -7,13 +7,13 @@ public class _Tester {
 		// Access them without creating a new instance of the object
 		
 		// Test cases
-		String test1 = " 42"; //42
-		String test2 = "   -42"; //-42
+		String test1 = "42"; //42
+		String test2 = "  -42"; //-42
 		String test3 = "4193 with words"; //4193
 		String test4 = "words and 987"; //0
 		String test5 = "-91283472332"; //-2147483648
 		
 		StrToIntAtoi s = new StrToIntAtoi();
-		System.out.println("Return value: " + s.myAtoi(test1));
+		System.out.println("Return value: " + s.myAtoi(test2));
 	}
 }

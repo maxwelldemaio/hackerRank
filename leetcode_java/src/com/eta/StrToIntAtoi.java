@@ -2,21 +2,29 @@ package com.eta;
 
 public class StrToIntAtoi {
 	public int myAtoi(String s) {
-		// Have boolean for negative
-		Boolean isNegative = false;
-		int sum = 0;
+		// Initialize sum, sign, and iter variables
+		int res = 0, sign = 1, i = 0;
 		
-		// Start reading characters of str
-		for (int i = 0; i < s.length(); i++) {
-			char c = s.charAt(i);
-			
-			// Read in and ignore any leading whitespace
-			if (Character.isWhitespace(c)) {
-				continue;
-			}
-			System.out.println(c);
+		// Go through whitespace
+		while (s.charAt(i) == ' ') {
+			i++;
 		}
 		
-		return sum;
+		// Check for sign (and increment to keep going)
+		if (s.charAt(i) == '-' || s.charAt(i) == '+') {
+			if (s.charAt(i++) == '-') {
+				sign = -1;
+			}
+		}
+		
+        // Iterate through all digits of input
+		// Only iterate while there is valid input
+		// Make sure the res does not overflow the Integer max/min value
+		while(i < s.length() && s.charAt(i) >= '0' && s.charAt(i) <= '9') {
+			
+            res = res * 10 + Character.getNumericValue(s.charAt(i));
+		}
+		
+        return sign * res;
 	}
 }
