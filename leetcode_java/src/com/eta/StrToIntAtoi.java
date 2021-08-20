@@ -19,39 +19,35 @@ public class StrToIntAtoi {
 		if (s.equals("")) {
 			return 0;
 		}
+		int res = 0, i = 0, sign = 1;
 		
-		// Initialize sum, sign, and iter variables
-		int res = 0, sign = 1, i = 0;
-		
-		// Go through whitespace
+		// get rid of whitespace
 		while (i < s.length() && s.charAt(i) == ' ') {
 			i++;
 		}
 		
-		// Check for sign (and increment to keep going)
-		if (i < s.length() && (s.charAt(i) == '-' || s.charAt(i) == '+')) {
+		// check for sign
+		if (i < s.length() && (s.charAt(i) == '+' || s.charAt(i) == '-')) {
+			// change if negative, iterate
 			if (s.charAt(i++) == '-') {
 				sign = -1;
 			}
 		}
 		
-        // Iterate through all digits of input
-		// Only iterate while there is valid input
-		// Make sure the res does not overflow the Integer max/min value
-		while(i < s.length() && s.charAt(i) >= '0' && s.charAt(i) <= '9') {
-			// handle int overflow
+		// now iterate across digits if any
+		// should only be in range 0-9
+		while (i < s.length() && s.charAt(i) >= '0' && s.charAt(i) <= '9') {
+			// check if we will go over the max
 			if (res > Integer.MAX_VALUE / 10 || (res == Integer.MAX_VALUE / 10 && s.charAt(i) - '0' > 7)) {
 				if (sign == -1) {
 					return Integer.MIN_VALUE;
 				}
-				if (sign == 1) {
-					return Integer.MAX_VALUE;
-				}
+				return Integer.MAX_VALUE;
 			}
-            res = res * 10 + Character.getNumericValue(s.charAt(i));
-            i++;
+			
+			// update res
+			res = res * 10 + (s.charAt(i++) - '0');
 		}
-		
-        return sign * res;
+		return sign * res;
 	}
 }

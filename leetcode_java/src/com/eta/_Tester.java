@@ -16,6 +16,6 @@ public class _Tester {
 		String test6 = " "; // 0
 		
 		StrToIntAtoi s = new StrToIntAtoi();
-		System.out.println("Return value: " + s.myAtoi(test6));
+		System.out.println("Return value: " + s.myAtoi(test1));
 	}
 }
