@@ -39,10 +39,12 @@ In the directory below I've placed solutions to common interview questions and c
 ### Linked List
 |  #  |      Title     |   Solutions   | Video  | Difficulty  | Tags        | Notes     |
 |-----|----------------|---------------|--------|-------------|-------------|-----------|
+| |Delete Node in a Linked List| |/| | | |
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Python Solution](./leetcode_py/DeleteNthNode1.py)|/|Medium|Linked List and Two Pointers|
-|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Java Solution](./leetcode_java/src/com/eta/PalindromeLinkedList.java)|/|Easy|Linked List, Stack, Two Pointers, and Recursion|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Java Solution](./leetcode_java/src/com/eta/ReverseLinkedList.java)|[📺](https://www.youtube.com/watch?v=r8NIEi6rwiE)|Easy|Linked List and Recursion|
-
+| |Merge Two Sorted Lists| |/| | | |
+|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Java Solution](./leetcode_java/src/com/eta/PalindromeLinkedList.java)|/|Easy|Linked List, Stack, Two Pointers, and Recursion|
+| |Linked List Cycle| |/| | | |
 
 ### Trees
 |  #  |      Title     |   Solutions   | Video  | Difficulty  | Tags        | Notes     |
