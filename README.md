@@ -78,7 +78,10 @@ In the directory below I've placed solutions to common interview questions and c
 ### Math
 |  #  |      Title     |   Solutions   | Video  | Difficulty  | Tags        | Notes     |
 |-----|----------------|---------------|--------|-------------|-------------|-----------|
-
+| |Fizz Buzz| |/| | | |
+| |Count Primes| |/| | | |
+| |Power of Three| |/| | | |
+| |Roman to Integer| |/| | | |
 
 ### Others
 |  #  |      Title     |   Solutions   | Video  | Difficulty  | Tags        | Notes     |
