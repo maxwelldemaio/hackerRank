@@ -16,8 +16,10 @@ In the directory below I've placed solutions to common interview questions and c
 |136|[Single Number](https://leetcode.com/problems/single-number/)|[Python Solution](./leetcode_py/SingleNum.py)|/|Easy||Bitwise XOR, every element appears twice except for one.|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Python Solution](./leetcode_py/IntersectArray2.py)|/|Easy|Array, Hash Table, Two Pointers, Binary Search, and Sorting|
 | |Plus One| |/| | | |
+| |Move Zeroes| |/| | | |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java Solution](./leetcode_java/src/com/eta/ReverseInteger.java), [Python Solution](./leetcode_py/TwoSum.py), and [JavaScript Solution](./leetcode_js/TwoSum.js)|[📺](https://youtu.be/F87rJe3DNkY)|Easy|Array and Hash Table|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Java Solution](./leetcode_java/src/com/eta/ValidSudoku.java)|/|Medium|Array, Hash Table, and Matrix|
+| |Rotate Image| |/| | | |
 |15|[3Sum](https://leetcode.com/problems/3sum/)|[Java Solution](./leetcode_java/src/com/eta/ThreeSum.java) and [Python Solution](./leetcode_py/3sum.py)|/|Medium|Two Pointers, Sorting, and Array|
 
 
