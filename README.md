@@ -49,7 +49,11 @@ In the directory below I've placed solutions to common interview questions and c
 ### Trees
 |  #  |      Title     |   Solutions   | Video  | Difficulty  | Tags        | Notes     |
 |-----|----------------|---------------|--------|-------------|-------------|-----------|
-
+| |Maximum Depth of Binary Tree| |/| | | |
+| |Validate Binary Search Tree| |/| | | |
+| |Symmetric Tree| |/| | | |
+| |Binary Tree Level Order Traversal| |/| | | |
+| |Convert Sorted Array to Binary Search Tree| |/| | | |
 
 ### Sorting and Searching
 |  #  |      Title     |   Solutions   | Video  | Difficulty  | Tags        | Notes     |
